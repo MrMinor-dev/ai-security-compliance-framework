@@ -78,6 +78,14 @@ Laws are principles that never change. Implementation details live in architectu
 | **G3** | Trust is earned through outcomes, not assumed — autonomy expands based on demonstrated competence, not time served |
 | **G4** | Research informs, human decides — the agent provides analysis and recommendations, the human makes strategic decisions |
 
+The laws are literal. Verbatim from the CEO-COO contract:
+
+> **Law G1:** "Jordan has absolute override authority — any decision, automation, or process can be stopped, reversed, or modified at any time, for any reason, without justification required."
+
+> **Law S3:** "No task is complete until the outcome is confirmed. 'I ran the code' is not verification. 'I confirmed the expected result' is."
+
+> **Law S4:** "When errors occur, surface them immediately. Silent failures compound. Visibility enables correction."
+
 ### Safety Laws
 
 | Law | Principle |
@@ -134,6 +142,14 @@ Five types of drift that degrade governance over time:
 | **Agency drift** | Human stops engaging critically | Approval rate >95% with challenge rate <5% |
 
 **Agency drift is the most dangerous.** It means the human is rubber-stamping decisions without review. The system detects this through approval rate and challenge rate metrics — if the human approves everything and questions nothing, that's a governance failure, not a success.
+
+Trust calibration is quantified:
+
+```
+engagement_score = (modifications + questions + rejections) / total_reviews
+```
+
+Target: >0.15. If approval rate exceeds 95% and review time drops under 30 seconds, that's a drift alert. The system flags it automatically — the human doesn't get to decide they're paying enough attention.
 
 ---
 
