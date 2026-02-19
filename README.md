@@ -2,7 +2,7 @@
 
 **Production-tested authority governance for autonomous AI systems**
 
-A 5-tier authority system with 18 immutable laws governing what an AI agent can do, what it cannot do, and how those boundaries expand or contract based on demonstrated competence. Built and enforced across 350+ production sessions operating an AI-as-COO for a real business.
+A 5-tier authority system with 18 immutable laws governing what an AI agent can do, what it cannot do, and how those boundaries expand or contract based on demonstrated competence. Built and enforced in production since October 2024, operating an AI-as-COO for a real business.
 
 ---
 
@@ -15,7 +15,7 @@ When an AI agent operates autonomously — executing workflows, modifying databa
 - What can it do **autonomously** — and how do you know those boundaries are right?
 - How do you **detect drift** when the human stops paying attention?
 
-Most AI safety frameworks answer these in theory. This one answers them in production, across 350+ sessions managing real infrastructure, real compliance requirements, and real money.
+Most AI safety frameworks answer these in theory. This one answers them in production — managing real infrastructure, real compliance requirements, and real money since October 2024.
 
 ---
 
@@ -198,7 +198,7 @@ Calibrate: Feed outcome into trust model
 
 | Metric | Value |
 |--------|-------|
-| Sessions governed | 350+ |
+| In production since | October 2024 |
 | Immutable laws | 18 across 4 categories |
 | Authority tiers | 5 (0F, 0H, 1, 2, 3) |
 | Drift types monitored | 5 |
@@ -264,4 +264,4 @@ MIT License — See [LICENSE](LICENSE) for details.
 
 ---
 
-*18 laws. 5 tiers. 350+ sessions. Every boundary tested in production.*
+*18 laws. 5 tiers. In production since October 2024. Every boundary tested.*
