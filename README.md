@@ -1,21 +1,35 @@
 # AI Security & Compliance Framework
 
-**Production-tested authority governance for autonomous AI systems**
+**Authority governance for autonomous AI systems — built in production, not theory**
 
-A 5-tier authority system with 18 immutable laws governing what an AI agent can do, what it cannot do, and how those boundaries expand or contract based on demonstrated competence. Built and enforced in production since October 2024, operating an AI-as-COO for a real business.
+When I gave an AI agent access to my business infrastructure — workflows, databases, external communications — I had one question to answer before anything went into production: what happens when it does something I didn't anticipate?
+
+That question became 18 immutable laws and a 5-tier authority system. Running in production since August 2025. Every boundary tested.
 
 ---
 
 ## The Problem
 
-When an AI agent operates autonomously — executing workflows, modifying databases, managing compliance — the hardest question isn't technical. It's governance:
+The hardest problems in giving AI agents real autonomy aren't technical — they're governance problems:
 
 - What should the agent be **forbidden** from doing, ever?
 - What requires **human approval** before execution?
 - What can it do **autonomously** — and how do you know those boundaries are right?
 - How do you **detect drift** when the human stops paying attention?
 
-Most AI safety frameworks answer these in theory. This one answers them in production — managing real infrastructure, real compliance requirements, and real money since October 2024.
+Most frameworks answer these in theory. This one answers them in production — managing real infrastructure, real compliance requirements, and real money since August 2025.
+
+One thing took longest to get right: catching myself rubber-stamping. When approval rate climbs above 95% and challenge rate drops below 5%, that looks like trust. It's actually a warning sign. So I built the flag in. The number that signals a healthy relationship is identical to the number that signals you've stopped paying attention. The system tells you which one it is.
+
+---
+
+## Repository Contents
+
+| File | What It Is |
+|------|------------|
+| [CEO-COO-CONTRACT.md](CEO-COO-CONTRACT.md) | The actual contract — 18 laws across 4 categories, role definitions, and the full tier system |
+| [enforcement-reference.md](enforcement-reference.md) | How laws become actions — tier assignments, escalation procedures, drift detection, trust calibration |
+| [examples/tier-classifications.md](examples/tier-classifications.md) | 30 real actions classified by tier, with reasoning and anti-patterns |
 
 ---
 
